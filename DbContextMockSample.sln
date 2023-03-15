@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContextMockSample", "src\DbContextMockSample\DbContextMockSample.csproj", "{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{130A6978-1EA4-4552-9462-F3D11E256F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{813985E6-4A28-45CF-A6C1-26AF62FCC1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContextMockSample.Tests.Unit", "test\DbContextMockSample.Tests.Unit\DbContextMockSample.Tests.Unit.csproj", "{34095B7C-CFEF-439B-872E-8A0DE46C7152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34095B7C-CFEF-439B-872E-8A0DE46C7152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34095B7C-CFEF-439B-872E-8A0DE46C7152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34095B7C-CFEF-439B-872E-8A0DE46C7152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34095B7C-CFEF-439B-872E-8A0DE46C7152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFCFDF08-C4C0-4D78-B10E-A98AB6550D72} = {130A6978-1EA4-4552-9462-F3D11E256F4E}
+		{34095B7C-CFEF-439B-872E-8A0DE46C7152} = {813985E6-4A28-45CF-A6C1-26AF62FCC1B3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+*.csproj.user
+*.DotSettings.user
+**/.vs
+**/publish
+/.vs
+bin
+obj
+.idea
